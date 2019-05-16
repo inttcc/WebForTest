@@ -29,7 +29,7 @@ class ZenTaoLogin(unittest.TestCase):
         '''登录正确账号和密码'''
         self.zentao.login('tancichao', 'huolaile123')
         sleep(2)
-        self.assertTrue(not self.zentao.is_alert())
+        self.assertTrue( self.zentao.is_alert())
 
     # 用例2：登录错误账号和密码
     def test02(self):
