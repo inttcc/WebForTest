@@ -7,8 +7,8 @@ import os
 # from BeautifulReport import BeautifulReport as b
 
 casePath = './case'
-# reportPath='./report/result'
-reportPath = r'C:\Users\Administrator\Desktop\result.html'
+reportPath='./report/result.html'
+# reportPath = r'C:\Users\Administrator\Desktop\result.html'
 
 
 def all_case():
