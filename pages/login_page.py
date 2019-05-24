@@ -62,8 +62,6 @@ class LoginPage(Base):
 if __name__ == '__main__':
     from selenium import webdriver
     from pykeyboard import PyKeyboard
-    from pymouse import PyMouse
-
 
     driver = webdriver.Chrome()
     zentao = LoginPage(driver)
